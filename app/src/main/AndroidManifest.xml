@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
+            android:name=".SlopeSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SlopeLogin"
+            android:exported="false" />
+        <activity
+            android:name=".SlopeMain"
+            android:exported="false" />
+        <activity
+            android:name=".LetsMoveSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".LetsMoveLogin"
+            android:exported="false" />
+        <activity
+            android:name=".LetsMove_Main"
+            android:exported="false" />
+        <activity
             android:name=".SecondMainLogin"
             android:exported="false" />
         <activity

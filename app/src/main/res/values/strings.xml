@@ -2,4 +2,5 @@
     <string name="app_name">LatestRecyclerView</string>
     <string name="underlined_textview"><u>Sign Up</u></string>
     <string name="underlined_forgot_password"><u>Forgot Password</u></string>
+    <string name="terms_and_conditions"><u>Terms &amp; Conditions</u></string>
 </resources>

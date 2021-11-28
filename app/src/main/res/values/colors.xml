@@ -10,5 +10,9 @@
     <color name="green">#00897B</color>
     <color name="orange">#D3F4511E</color>
     <color name="AlpineWhite">#faf4f1</color>
-    <color name="dark_blue">#E1364A6A</color>
+    <color name="light_blue">#039BE5</color>
+    <color name="dark_grey">#4F5A60</color>
+    <color name="blue">#1E78BD</color>
+    <color name="dark_blue">#00897B</color>
+    <color name="heavy_blue">#062DF1</color>
 </resources>

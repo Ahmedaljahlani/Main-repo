@@ -35,28 +35,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyHolder myHolder, int i) {
+    public void onBindViewHolder(@NonNull MyHolder myHolder,int i) {
         myHolder.mTitle.setText(models.get(i).getTitle());
         myHolder.mDes.setText(models.get(i).getDescription());
         myHolder.mImageView.setImageResource(models.get(i).getImg());
 
-//        myHolder.setItemClickListener(new ItemClickListener() {
-//            @Override
-//            public void onItemClickListener(View v, int position) {
-//                String gTitle=models.get(position).getTitle();
-//                String gDes=models.get(position).getDescription();
-//                BitmapDrawable bitmapDrawable=(BitmapDrawable)myHolder.mImageView.getDrawable();
-//
-//                Bitmap bitmap=bitmapDrawable.getBitmap();
-//                ByteArrayOutputStream stream=new ByteArrayOutputStream();
-//
-//                bitmap.compress(Bitmap.CompressFormat.PNG,100,stream);
-//                byte[] bytes=stream.toByteArray();
-//
-//                Intent intent=new Intent(context,secondActivity.class);
-//                context.startActivity(intent);
-//            }
-//        });
 
         myHolder.setItemClickListener(new ItemClickListener() {
             @Override

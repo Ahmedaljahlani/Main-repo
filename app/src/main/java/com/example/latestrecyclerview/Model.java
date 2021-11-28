@@ -2,6 +2,9 @@ package com.example.latestrecyclerview;
 
 public class Model {
     private int id;
+    private Class path;
+    private String title, description;
+    private int img;
 
     public int getId() {
         return id;
@@ -19,9 +22,6 @@ public class Model {
         this.path = path;
     }
 
-    private Class path;
-    private String title, description;
-    private int img;
 
     public String getTitle() {
         return title;

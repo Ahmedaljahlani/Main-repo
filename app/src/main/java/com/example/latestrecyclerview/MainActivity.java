@@ -44,6 +44,21 @@ public class MainActivity extends AppCompatActivity {
         m.setImg(R.drawable.ic_launcher_foreground);
         models.add(m);
 
+        m=new Model();
+        m.setId(3);
+        m.setPath(LetsMove_Main.class);
+        m.setTitle("Let's Move");
+        m.setDescription("New login Design");
+        m.setImg(R.drawable.ic_launcher_foreground);
+        models.add(m);
+
+        m=new Model();
+        m.setId(4);
+        m.setPath(SlopeMain.class);
+        m.setTitle("Slope");
+        m.setDescription("New world Design");
+        m.setImg(R.drawable.ic_launcher_foreground);
+        models.add(m);
 
 //        m=new Model();
 //        m.setTitle("news feed");
